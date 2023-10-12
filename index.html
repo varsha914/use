@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Username Validation</title>
+</head>
+<body bgcolor="#FACBEA">
+    <form action="Usermessage.html">
+        <fieldset>
+            <legend>Username validation</legend>
+            <br><br>
+
+        <label for="sal">Salutation</label> <br>
+        <select name="sal" id="sal">
+            <option value="none">None</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Mrs.">Mrs.</option>
+            <option value="Dr.">Dr.</option>
+        </select>
+        <br><br>
+
+        <label for="uname">Username</label>
+        <input type="text" required id="uname" name="uname" pattern="[A-za-z]{3-11}" >
+        <br><br>
+
+        <label for="contact">Contact </label>
+        &nbsp;&nbsp;&nbsp;
+        <input type="text" required id="contact" name="contact" pattern="[6-9]{1}[0-9]{9}">
+        <br><br>
+
+        <label for="address">Address</label><br>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+
+        <!-- hii -->
+    </fieldset>
+    <br>
+    <input type="submit">
+    </form>
+</body>
+</html>
